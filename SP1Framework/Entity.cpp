@@ -10,6 +10,7 @@ Entity::Entity()
 
 Entity::~Entity()
 {
+
 }
 
 char Entity::GetName()
