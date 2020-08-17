@@ -1,6 +1,5 @@
 #include "Damage.h"
 
-
 Damage::Damage()
 {
 	dmg = 0;

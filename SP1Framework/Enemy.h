@@ -3,7 +3,6 @@
 #include <iostream>
 using namespace std;
 
-
 class Enemy : public Damage
 {
 private:
