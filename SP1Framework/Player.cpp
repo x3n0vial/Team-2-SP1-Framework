@@ -8,7 +8,7 @@ Player::Player()
 
 Player::~Player()
 {
-	
+	//test
 }
 
 char Player::GetName()
