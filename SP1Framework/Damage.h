@@ -4,7 +4,6 @@ class Damage
 {
 private:
 	int dmg;
-
 public:
 	Damage();
 	~Damage();
