@@ -1,11 +1,12 @@
 #pragma once
 #include <iostream>
+#include "Items.h"
 using namespace std;
-// there are thre sets of items weapons, healing, armour
+// there are three sets of items weapons, healing, armour
 class Item
 {
 private:
-    string Itemname;
+    string Itemname; // hello test
     int itemnumber;
     int ItemBaseValue;
     string ItemDescription;
@@ -43,7 +44,7 @@ public:
     string getType()
     {
         string type;
-        if (Weapon = true)
+        if (Weapon == true)
         {
             type = "Weapon";
         }
