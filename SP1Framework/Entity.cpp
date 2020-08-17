@@ -1,6 +1,6 @@
 #include "Entity.h"
 
-Entity::Entity(int x, int y)
+Entity::Entity()
 {
 	x = 1;
 	y = 1;

@@ -5,7 +5,7 @@ protected:
 	int x, y;
 	char name;
 public:
-	Entity(int x, int y);
+	Entity();
 	~Entity();
 	virtual char GetName();
 	int GetX();
@@ -13,5 +13,3 @@ public:
 	void SetX(int x_coord);
 	void SetY(int y_coord);
 };
-
-

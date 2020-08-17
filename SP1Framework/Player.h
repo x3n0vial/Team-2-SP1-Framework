@@ -3,5 +3,9 @@
 class Player :
 	public Entity
 {
+public:
+	Player();
+	~Player();
+	char GetName();
 };
 
