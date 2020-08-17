@@ -8,6 +8,7 @@ Player::Player()
 
 Player::~Player()
 {
+	
 }
 
 char Player::GetName()
