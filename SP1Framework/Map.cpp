@@ -82,11 +82,3 @@ void map::townsquare()
 	//Orphanage
 	j = 21; for (int i = 21; i < 26; i++) { (Grid[i][j] = '-'); }Grid[21][22] = '|'; Grid[22][22] = ' '; Grid[23][22] = 'â'; Grid[24][22] = ' '; Grid[25][22] = '|'; j = 23; for (int i = 21; i < 26; i++) { (Grid[i][j] = '-'); }
 }
-
-void map::orphanage()
-{
-}
-
-void map::protest_area()
-{
-}

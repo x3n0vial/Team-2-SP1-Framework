@@ -8,6 +8,4 @@ public:
 	void initialise();
 	void printmap();
 	void townsquare();
-	void orphanage();
-	void protest_area();
 };
